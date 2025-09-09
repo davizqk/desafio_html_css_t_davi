@@ -1,0 +1,55 @@
+:root {
+    --cor-lilas-escuro: #673AB7;
+    --cor-lilas-claro: #9575CD;
+    --cor-branco: #FFFFFF;
+
+    --borda: 3px solid var(--cor-lilas-escuro);
+    --borda-arredondada: 10px;
+}
+
+@font-face {
+    font-family: "Shadows Into Light", cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+}
+
+/* SELETOR GLOBAL */
+* {
+    font-family: "Shadows Into Light", cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* o valor total do tamanho do elemento conta tanto com espaços interno/externo e as bordas */
+    outline-color: var(--cor-vermelho-escuro);
+}
+
+h1 {
+    position: absolute;/*altera a posição do elemento*/
+    z-index: -1;/**/
+    opacity: 0;/**/
+}
+
+/***** FORMULÁRIO *****/
+input {
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-branco);
+}
+
+.botao-calcular {
+    background-color: var(--cor-lilas-claro);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+    color: var(--cor-branco);
+    width: 100%;
+    max-width: 260px;
+}
+
+.botao-select {
+    background-color: var(--cor-branco);
+    border: var(--borda);
+    height: 35px;
+    width: 100%;
+    max-width: 309px;
+}
