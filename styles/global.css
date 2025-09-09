@@ -30,7 +30,7 @@ h1 {
 
 /***** FORMULÁRIO *****/
 input {
-    width: 100%;
+    width: 309px;
     height: 35px;
     border: var(--borda);
     background-color: var(--cor-branco);
@@ -50,6 +50,5 @@ input {
     background-color: var(--cor-branco);
     border: var(--borda);
     height: 35px;
-    width: 100%;
-    max-width: 309px;
+    width: 309px;
 }
